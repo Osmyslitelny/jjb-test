@@ -13,6 +13,6 @@ services:
       - jjb_networks
 
 networks:
-  ecosystem:
+  jjb_networks:
     name: jjb_networks
     driver: bridge
